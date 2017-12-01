@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('.smooth-scroll').smoothScroll();
   var searchresults
   $(document).keyup(function() {
     searchresults = document.getElementById('search').value;
