@@ -93,6 +93,16 @@
   text-align: center;
 }
 
+.category-grid a {
+  position: relative;
+  top: 0;
+  transition: all .3s;
+}
+
+.category-grid a:hover {
+  top: -10px;
+}
+
 .category {
   cursor: pointer;
   width: 280px;
@@ -100,10 +110,8 @@
   padding: 20px;
   display: inline-block;
   height: 460px;
-  vertical-align: top;
-  position: relative;
-  top: 0;
   transition: all .3s;
+  vertical-align: top;
   box-shadow: 0 3px 25px 0 rgba(0,0,0,0.25);
   border-radius: 18px;
   background-position: center;
@@ -112,7 +120,6 @@
 }
 
 .category:hover {
-  top: -10px;
   box-shadow: 0 12px 25px 0 rgba(0,0,0,0.25);
 }
 
