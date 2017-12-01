@@ -1,0 +1,272 @@
+.top-head {
+  width: 100%;
+  height: 460px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/header.jpg');
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-head img {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: auto;
+  margin-top: 50px;
+}
+
+#about2 {
+  padding: 30px;
+  padding-top: 80px;
+}
+
+.about-wrap {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#about2 h2 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #2a2a2a;
+  margin: 0;
+  text-align: left;
+}
+
+#about2 hr {
+  width: 100px;
+  margin: 0;
+  border: solid #193167 2px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#about2 p {
+  font-size: 1.8em;
+  line-height: 150%;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+}
+
+#about2 button {
+  background-color: transparent;
+  color: #FF0031;
+  margin-top: 30px;
+  border: solid #FF0031 2px;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+  font-size: 1.8em;
+  border-radius: 7px;
+  transition: all .3s;
+  outline: none;
+}
+
+#about2 button:hover {
+  background-color: #FF0031;
+  color: white;
+}
+
+#categories {
+  padding: 30px;
+  padding-top: 80px;
+}
+
+#categories h2 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #2a2a2a;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-grid {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.category {
+  cursor: pointer;
+  width: 280px;
+  margin: 20px 10px 20px 10px;
+  padding: 20px;
+  display: inline-block;
+  height: 460px;
+  vertical-align: top;
+  position: relative;
+  top: 0;
+  transition: all .3s;
+  box-shadow: 0 3px 25px 0 rgba(0,0,0,0.25);
+  border-radius: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category:hover {
+  top: -10px;
+  box-shadow: 0 12px 25px 0 rgba(0,0,0,0.25);
+}
+
+.layer {
+  position: absolute;
+  width: 280px;
+  height: 460px;
+  top: 0;
+  left: 0;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.category h3 {
+  margin: 0;
+  font-size: 2.5em;
+  text-align: left;
+  color: white;
+  position: relative;
+}
+
+.category p {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 125%;
+  font-size: 1.7em;
+  padding: 18px;
+  color: white;
+}
+
+#awards {
+  background-color: #F8F8F8;
+  padding: 80px 0 50px 0;
+  text-align: center;
+}
+
+#awards h2 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #2a2a2a;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#awards .desc {
+  font-size: 1.7em;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+.searchbox {
+  outline: none;
+  font-size: 2em;
+  border: none;
+  padding: 8px 30px 8px 30px;
+  border-radius: 24px;
+  padding-left: 42px;
+  width: 400px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.1);
+  background-image: url('../img/search-light.svg');
+  background-position: 11px 9px;
+  background-repeat: no-repeat;
+  background-size: 21px;
+  transition: all .3s;
+  color: #2a2a2a;
+}
+
+.searchbox:focus {
+  background-image: url('../img/search-dark.svg');
+  box-shadow: 0 2px 22px 0 rgba(0,0,0,0.15);
+}
+
+.awards-grid {
+  margin-top: 30px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wide {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 5px;
+}
+
+.wide hr {
+  width: 150px;
+  margin: 0;
+  border: solid rgba(0, 0, 0, 0.1) 2px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wide h3 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #2a2a2a;
+}
+
+.award-link {
+  transition: all .3s;
+}
+
+.award {
+  width: 270px;
+  padding: 15px;
+  display: inline-block;
+  background-color: white;
+  margin: 20px 10px 20px 10px;
+  vertical-align: top;
+  box-shadow: 0 3px 20px 0 rgba(0,0,0,0.15);
+  height: 240px;
+  border-radius: 12px;
+  transition: all .3s;
+  position: relative;
+  top: 0;
+}
+
+.award hr {
+  width: 70px;
+  margin: 0;
+  border: none;
+  border-top: solid #193167 3px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.award h4 {
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #2a2a2a;
+  text-align: left;
+  margin-bottom: 8px;
+  line-height: 115%;
+  transition: all .3s;
+}
+
+.award:hover {
+  top: -8px;
+  box-shadow: 0 11px 20px 0 rgba(0,0,0,0.15);
+}
+
+.award p {
+  font-weight: 400;
+  font-size: 1.6em;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 125%;
+  text-align: left;
+}

@@ -1,0 +1,11 @@
+.back {
+  position: absolute;
+  font-size: 1.7em;
+  color: white;
+  z-index: 500;
+  text-decoration: none;
+  top: 20px;
+  left: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+}
