@@ -184,7 +184,6 @@
 }
 
 .searchbox:focus {
-  background-image: url('../img/search-dark.svg');
   box-shadow: 0 2px 22px 0 rgba(0,0,0,0.15);
 }
 
@@ -243,9 +242,20 @@
   width: 70px;
   margin: 0;
   border: none;
-  border-top: solid #193167 3px;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+.award .hr-1 {
+  border-top: solid #193167 3px;
+}
+
+.award .hr-2 {
+  border-top: solid #FF0031 3px;
+}
+
+.award .hr-3 {
+  border-top: solid #FFD700 3px;
 }
 
 .award h4 {

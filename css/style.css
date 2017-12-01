@@ -13,11 +13,12 @@ footer {
 }
 
 footer p {
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   margin-bottom: 12px;
+  letter-spacing: 1px;
 }
 
 footer .icons {
